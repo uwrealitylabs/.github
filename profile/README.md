@@ -1,7 +1,7 @@
 # UW Reality Labs
 
 <p align="middle">
-<img src="../images/uw-reality-labs/UW Reality Labs Banner.png" width="100%" height="auto" alt="UW Reality Labs Banner">
+<img src="images/uw-reality-labs/UW Reality Labs Banner.png" width="100%" height="auto" alt="UW Reality Labs Banner">
 </p>
 
 ## About
@@ -19,7 +19,7 @@ We first soldered an inertial measurement unit (IMU) and microcontroller unit (M
 From this headset, we plan to build other systems, such as an inside-out 6DoF tracking solution using visual-inertial odometry, or a varifocal optical stack using eye tracking and motors or voice coils.
 
 <div align="middle">
-<img src="../images/HMD_Enclosure_1.jpg" alt="HMD Enclosure for the HMD" style="width: 80%; height: auto;"> </div>
+<img src="images/HMD_Enclosure_1.jpg" alt="HMD Enclosure for the HMD" style="width: 80%; height: auto;"> </div>
 
 ### Basic HMD Hardware
 
@@ -42,14 +42,14 @@ From this headset, we plan to build other systems, such as an inside-out 6DoF tr
 Here's a simple flow chart of how the different components of the VR device interact with each other:
 
 <div align="middle">
-<img src="../images/End-to-End PC VR Interface.jpg" alt="End-to-End PC VR Interface" style="width: 50%; height: auto;"> </div>
+<img src="images/End-to-End PC VR Interface.jpg" alt="End-to-End PC VR Interface" style="width: 50%; height: auto;"> </div>
 
 ### Controllers (coming very soon!)
 
 Our team has received custom PCBs and other various electrical components for the build of 2 DIY Vive Wand-like controllers, which will be based off of [this](https://github.com/HadesVR/Wand-Controller) WIP open-source guide by LiquidCGS (creator of HadesVR). Each controller will have an IMU, a rechargeable battery, RF transceivers, tactile buttons, triggers, and joysticks. The HMD's microcontroller will also be upgraded and moved onto a central PCB. We are almost done with soldering.
 
 <div align="middle">
-<img src="../images/controllers_unfinished.jpg" alt="Controllers! (unfinished)" style="width: 50%; height: auto;"> </div>
+<img src="images/controllers_unfinished.jpg" alt="Controllers! (unfinished)" style="width: 50%; height: auto;"> </div>
 
 ### Drivers
 
@@ -60,8 +60,8 @@ SteamVR is the only universal platform with accessible driver SDKs (from Valve's
 We recommend [fresnel](https://xinreality.com/wiki/Fresnel_lens) lenses for any DIY VR build, since they are readily available for very low prices on platforms like Amazon and Aliexpress, and are thin and lightweight. Traditional biconvex lenses are wider, heavier (when built with glass), and usually cost more, but they may have increased visual clarity and no god rays. This is due to the design of fresnels and their fine concentric lines, which can introduce god rays and other distracting artifacts. Below is a visual comparision that should help explain the design of fresnel lenses further.
 
 <p align="middle">
-  <img src="../images/fresnel_plano_convex.jpg" width="200" height="300" alt="Fresnel and equivalent plano-convex lens." style="background-color:white;"/>
-  <img src="../images/fresnel_lens_collapse.jpg" width="200" height="300" alt="Collapsing a conventional lens into an equivalent power Fresnel lens." style="background-color:white;"/>
+  <img src="images/fresnel_plano_convex.jpg" width="200" height="300" alt="Fresnel and equivalent plano-convex lens." style="background-color:white;"/>
+  <img src="images/fresnel_lens_collapse.jpg" width="200" height="300" alt="Collapsing a conventional lens into an equivalent power Fresnel lens." style="background-color:white;"/>
   <br>
   <caption><em>Figure 1 (left): Fresnel lens (left) and equivalent power plano-convex lens (right).</em></caption>
     <br>
@@ -77,7 +77,7 @@ A lot of these simpler lenses can be purchased at a wide assortment of focal len
 For a comphrehensive guide on how to build your own Reality from Scratch - our open-source, DIY HMD, check out the guide [here](https://github.com/uwrealitylabs/realityfromscratch/blob/main/Guide.md), or join the UW Reality Labs team if you're a student at the University of Waterloo!
 
 <div align="middle">
-<img src="../images/HadesVR_HMD_unfinished.jpg" alt="unfinished HMD module built on HadesVR PCB" style="width: 50%; height: auto;">
+<img src="images/HadesVR_HMD_unfinished.jpg" alt="unfinished HMD module built on HadesVR PCB" style="width: 50%; height: auto;">
 <br>
 <caption><em>work-in-progress HMD module built on HadesVR PCB.</em></caption>
     </div>
@@ -108,7 +108,7 @@ The interactions between the lenses and the user can often make or break the exp
 The issues regarding comfort go further. The [vergence-accommodation conflict](https://en.wikipedia.org/wiki/Vergence-accommodation_conflict) is one phenomenon that VR researchers have been working to solve for many years. It occurs when a user perceives an object in VR to be a certain distance away, but the user's eyes are focused at a a different distance, due to the lenses in the VR headset only being able to show one fixed focal distance (the distance between the user and the virtual object of focus). This focal distance is said to be at around 2m for most consumer VR headets today, meaning that any object closer than or further than 2m away in a virtual scene will look blurry and be unable to focus on naturally. This can cause eye strain and motion sickness, which is likely a deal-breaker for many would-be new VR users.
 
 <p align="middle">
-  <img src="../images/Vergence-Accommodation_Conflict_Diagram.jpg" width="500" height="auto" alt="Vergence-accommodation conflict diagram." style="background-color:white;"/>
+  <img src="images/Vergence-Accommodation_Conflict_Diagram.jpg" width="500" height="auto" alt="Vergence-accommodation conflict diagram." style="background-color:white;"/>
   <br>
   <caption>Vergence-accommodation conflict example. [1]</caption>
 </p>
