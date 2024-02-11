@@ -6,9 +6,9 @@
 
 ## About
 
-UW Reality Labs is a newly founded design team at the University of Waterloo, which offers students the opportunity to engage directly with virtual reality technologies. This initiative focuses on providing practical experience in the inner workings of consumer VR technology, covering a comprehensive range of aspects including hardware, software, drivers, and ergonomics, among others. While we are a design "team", our main focus is learning and research.
+UW Reality Labs, based at the University of Waterloo, specializes in XR (extended reality) and spatial computing. Our team offers students hands-on experience with consumer VR (virtual reality) and AR (augmented reality) technologies. Our focus spans a broad range of areas, including hardware, optics, mechanical design, firmware, software, and machine learning applications.
 
-This repository is primarily maintained by me - please reach out if you have any questions, or join our [Discord](https://discord.gg/Uv7We55DrX).
+This repository is primarily maintained by myself (@kennynahh) - please reach out if you have any questions, or join our [Discord](https://discord.gg/Uv7We55DrX).
 
 ## Overview
 
