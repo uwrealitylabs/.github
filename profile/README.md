@@ -20,14 +20,22 @@ We first soldered an inertial measurement unit (IMU) and microcontroller unit (M
 
 From this headset, we plan to build other systems, such as an inside-out 6DoF tracking solution using visual-inertial odometry, or a varifocal optical stack using eye tracking and motors or voice coils.
 
-### Project: Wide FOV Prototype
-
-A key factor of immersion in VR is field of view (FOV). The eyesight of a human typically covers 220 degrees horizontally and 130 degrees vertically - however, the vast majority of consumer VR headsets today can only cover 100-120 degrees horizontally and 90-100 degrees vertically.
-
-We aim to explore the importance of FOV by creating our own wide FOV prototype. We will be stitching 2 horizontal 4K displays together and using large fresnel panels, along with a custom-designed shell. We will explore distortion correction in SteamVR, as well DFR (dynamic foveated rendering) with in-built eye tracking (using EyeTrackVR). 
+<div align="middle">
+<img src="images/HMD_Enclosure_1.jpg" alt="Reality from Scratch Prototype." style="width: 70%; height: auto;"> </div>
 
 <div align="middle">
-<img src="images/HMD_Enclosure_1.jpg" alt="HMD Enclosure for the HMD" style="width: 70%; height: auto;"> </div>
+<em>Reality from Scratch Prototype.</em> </div>
+
+
+### Project: Wide FOV Prototype
+
+A key factor of immersion in VR is field of view (FOV). The eyesight of a human typically covers [220 degrees horizontally](https://en.wikipedia.org/wiki/Field_of_view) and 130 degrees vertically - however, the vast majority of consumer VR headsets today can only cover 100-120 degrees horizontally and 90-100 degrees vertically.
+
+We aim to explore the importance of FOV by creating our own wide FOV prototype. We will be stitching 2 horizontal 4K displays together and using large fresnel panels, along with a custom-designed shell. We will explore custom distortion correction in SteamVR, as well as DFR (dynamic foveated rendering) with built-in eye tracking (using EyeTrackVR).
+
+### Project: Universal Gestures
+
+The goal of this project is to create an importable Unity package which expands and simplifies the hand gesture recognition system provided by Meta. Instead of using an on-or-off approach to finger poses, we will take the float values given by the sensors on the headset for finger positions and apply a machine learning approach. By collecting a training set of popular hand gestures, we will train neural networks to classify them. The output of these trained neural networks will be accessible to scripts that we create in C#, which will finally be attachable to GameObjects within Unity.
 
 ### Basic HMD Hardware
 
