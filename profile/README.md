@@ -143,10 +143,12 @@ In addition, the UW Reality Labs design team draws obvious inspiration from Meta
 
 ## Resources
 
-A large portion of our research comes from helpful articles and sources from companies like Valve, and from initiatives like XinReality. These and other useful resources are cited throughout this document, and repeated below; we encourage you to read them.
+A large portion of our research comes from helpful articles and sources from companies like Valve, and from initiatives like XinReality. These and other useful resources are cited throughout this document, and repeated below; we encourage you to view them.
 
 [Hands-On with Meta's New VR Headset Prototypes! - Tested (YouTube)](https://www.youtube.com/watch?v=x6AOwDttBsc)
 <em>This one we really recommend watching.</em>
+
+[OSC Colloquium: Douglas Lanman, "How to Pass the Visual Turing Test in AR/VR"](https://www.youtube.com/watch?v=EJ_-n7Syz0s)
 
 [XinReality - Frensel Lenses](https://xinreality.com/wiki/Fresnel_lens)
 
@@ -154,15 +156,11 @@ A large portion of our research comes from helpful articles and sources from com
 
 [Doc-Ok.org - Hacking the Oculus DK2](http://doc-ok.org/?p=1095)
 
-[Visual odometry - Wikipedia](https://en.wikipedia.org/wiki/Visual_odometry)
-
 [Valve Software - Valve Index Deep Dive](https://www.valvesoftware.com/en/index/deep-dive/)
 
 [LiquidCGS - HadesVR](https://github.com/HadesVR/HadesVR)
 
 [WalkerDev (Hackaday.io) - Easy "Pancake Lenses"](https://hackaday.io/project/187343-easy-pancake-lenses)
-
-[RoNIN: Robust Neural Inertial Navigation](https://ronin.cs.sfu.ca/)
 
 [Aspheric Lens - Wikipedia](https://en.wikipedia.org/wiki/Aspheric_lens)
 
@@ -171,10 +169,6 @@ A large portion of our research comes from helpful articles and sources from com
 [Augmented and Mixed Reality Optical See-Through Combiners Based on Plastic Optics](https://sid.onlinelibrary.wiley.com/doi/10.1002/msid.1226)
 
 [Achromatic lens - Wikipedia](https://en.wikipedia.org/wiki/Achromatic_lens)
-
-[How Varjo delivers human eye resolution - Varjo](https://varjo.com/blog/introducing-bionic-display-how-varjo-delivers-human-eye-resolution/)
-
-[Hypervision | XR240.Gen2](https://www.hypervision.ai/configure-xr240)
 
 [Project Caliper - Prototyping VR Controllers](https://skarredghost.com/2021/12/08/project-caliper-prototyping-controllers-vr/)
 
