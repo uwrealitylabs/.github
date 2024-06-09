@@ -8,7 +8,9 @@
 
 UW Reality Labs, based at the University of Waterloo, specializes in XR (extended reality) and spatial computing. Our team offers students hands-on experience with consumer VR (virtual reality) and AR (augmented reality) technologies. Our focus spans a broad range of areas, including hardware, optics, mechanical design, firmware, software, and machine learning applications.
 
-This repository is primarily maintained by myself (@kennynahh) - please reach out if you have any questions, or join our [Discord](https://discord.gg/Uv7We55DrX).
+This repository is primarily maintained by myself (@kennynahh) - please reach out if you have any questions, or join our Discord.
+
+[![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/Uv7We55DrX)
 
 ## Overview
 
