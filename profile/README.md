@@ -39,6 +39,25 @@ We aim to explore the importance of FOV by creating our own wide FOV prototype. 
 
 The goal of this project is to create an importable Unity package which expands and simplifies the hand gesture recognition system provided by Meta. Instead of using an on-or-off approach to finger poses, we will take the float values given by the sensors on the headset for finger positions and apply a machine learning approach. By collecting a training set of popular hand gestures, we will train neural networks to classify them. The output of these trained neural networks will be accessible to scripts that we create in C#, which will finally be attachable to GameObjects within Unity.
 
+### Project: Universal Text
+
+When you prompt a virtual assistant (for example Meta AI on Raybans glasses), what happens when you ask “What am I looking at”? Currently, the pipeline seems rather simplistic. The cameras on the glasses take a picture, that picture is passed through a model that can assign text labels to images, and finally that text label describing the whole image is passed into an LLM. This process, especially the step where a model must describe everything in an image using words, is often inaccurate. 
+
+What if we could build a system that...
+* ...provides a richer text summary of a virtual environment, complete with descriptions of how objects compose each other, are placed within/next to/on top of each other?
+* ...also describes how you, the user, is interacting with that environment at any moment? Could we assign additional text to describe that you are pointing at a specific object, or reaching out for one?
+* ...runs in real time, that is, can constantly update every frame to provide an updated description. That way, we wouldn’t have to wait for text generation, and we could create a live captioning system?
+* ...runs entirely on-device, meaning this information is never sent to the cloud?
+
+If we created this, we could use it for...
+* ...in-application virtual assistants that make use of a rich text summary for high-accuracy responses
+* ...virtual science labs where users could receive detailed auto-generated scientific explanations about tools and objects they interact with
+* ...dynamic VR scene descriptions for the visually impaired, describing layout and objects, or even what they’re holding, pointing at or nearby to
+* ...and so much more
+
+Universal Text aims to explore this. We will develop a structured software package for Unity, which is composed of several scripts. We will begin with fully-virtual environments—artificial scenes that we build and label ourselves. The goal is to create a system that allows Unity VR developers to easily label their GameObjects with descriptions, and seamlessly integrate tutorials, live captioning for accessibility, or virtual assistants into their application.
+
+
 ### Basic HMD Hardware
 
 | **Components** | **Our Choice** | **Count** |
